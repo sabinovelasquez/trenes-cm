@@ -28,7 +28,7 @@ case ENV['TARGET'].to_s.downcase
     deploy.method = :rsync 
     deploy.build_before = true
     deploy.host = '45.55.240.255'
-    deploy.path = '/var/www/site.com'
+    deploy.path = '/var/www/sabino.cl/public_html/clients/trenes-cm'
     deploy.port     = 22
     
     end
