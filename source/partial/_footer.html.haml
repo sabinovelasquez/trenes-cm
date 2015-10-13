@@ -1,2 +1,27 @@
-.container
-	%footer
+%footer.footer
+  .container
+    %nav.pull-left
+      %ul
+        %li
+          %a{:href => "#"}
+            Home
+        %li
+          %a{:href => "#"}
+            Company
+        %li
+          %a{:href => "#"}
+            Portfolio
+        %li
+          %a{:href => "#"}
+            Blog
+    .social-area.pull-right
+      %a.btn.btn-social.btn-facebook.btn-simple
+        %i.fa.fa-facebook-square
+      %a.btn.btn-social.btn-twitter.btn-simple
+        %i.fa.fa-twitter
+      %a.btn.btn-social.btn-pinterest.btn-simple
+        %i.fa.fa-pinterest
+    .copyright
+      \&#169; 2015
+      = succeed "," do
+        %a{:href => "http://www.creative-tim.com"} Creative Tim

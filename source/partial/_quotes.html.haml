@@ -1,0 +1,27 @@
+.section.section-testimonial
+  .container
+    %h4.header-text.text-center What people think
+    #carousel-example-generic.carousel.fade{"data-ride" => "carousel"}
+      .carousel-inner{:role => "listbox"}
+        .item
+          .mask
+            %img{:src => "img/quotes/1.jpg"}/
+          .carousel-testimonial-caption
+            %p Jay Z, Producer
+            %h3 "I absolutely love your app! It's truly amazing and looks awesome!"
+        .item.active
+          .mask
+            %img{:src => "assets/img/faces/face-3.jpg"}/
+          .carousel-testimonial-caption
+            %p Drake, Artist
+            %h3 "This is one of the most awesome apps I've ever seen! Wish you luck Creative Tim!"
+        .item
+          .mask
+            %img{:src => "assets/img/faces/face-2.jpg"}/
+          .carousel-testimonial-caption
+            %p Rick Ross, Musician
+            %h3 "Loving this! Just picked it up the other day. Thank you for the work you put into this."
+      %ol.carousel-indicators.carousel-indicators-blue
+        %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
+        %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
+        %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}

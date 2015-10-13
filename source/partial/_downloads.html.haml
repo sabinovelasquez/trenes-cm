@@ -1,0 +1,21 @@
+.section.section-demo
+  .container
+    .row
+      .col-md-6
+        #description-carousel.carousel.fade{"data-ride" => "carousel"}
+          .carousel-inner
+            .item
+              %img{:alt => "", :src => "assets/img/template/examples/home_33.jpg"}/
+            .item.active
+              %img{:alt => "", :src => "assets/img/template/examples/home_22.jpg"}/
+            .item
+              %img{:alt => "", :src => "assets/img/template/examples/home_11.jpg"}/
+          %ol.carousel-indicators.carousel-indicators-blue
+            %li{"data-slide-to" => "0", "data-target" => "#description-carousel"}
+            %li.active{"data-slide-to" => "1", "data-target" => "#description-carousel"}
+            %li{"data-slide-to" => "2", "data-target" => "#description-carousel"}
+      .col-md-5.col-md-offset-1
+        %h4.header-text Easy to integrate
+        %p
+          With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
+        %a#Demo3.btn.btn-fill.btn-info{"data-button" => "info", :href => "http://www.creative-tim.com/product/awesome-landing-page"} Get Free Demo
